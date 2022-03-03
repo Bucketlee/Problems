@@ -1,4 +1,5 @@
 // https://programmers.co.kr/learn/courses/30/lessons/42746
+// 211201 못풀었었음
 
 function solution(numbers) {
   numbers.sort((a, b) => {
