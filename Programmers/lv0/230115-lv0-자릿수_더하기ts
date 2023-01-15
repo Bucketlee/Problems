@@ -1,0 +1,21 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/120906
+
+function solution(n: number) {
+  const str = String(n);
+  let sum = 0;
+  for (let i = 0; i < str.length; i += 1) {
+    sum += +str[i];
+  }
+
+  return sum;
+}
+
+
+// 다른이풀이
+
+// function solution(n: number) {
+//   return n
+//     .toString()
+//     .split("")
+//     .reduce((acc, cur) => acc + Number(cur), 0);
+// }
