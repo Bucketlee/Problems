@@ -1,0 +1,17 @@
+.github
+.storybook
+.vscode
+build
+db
+docker-entrypoint-initdb.db
+encrypted
+local_db
+node_modules
+seed
+viewer
+.runtimeconfig.json
+package-lock.json
+package.json
+tsconfig.json
+webpack.config.js
+.env.*

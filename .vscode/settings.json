@@ -1,0 +1,11 @@
+{
+  "eslint.nodePath": ".yarn/sdks",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "stylelint.enable": true,
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
+  "jestrunner.enableYarnPnpSupport": true,
+  "typescript.tsserver.log": "verbose"
+}
